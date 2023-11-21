@@ -1,0 +1,79 @@
+body {
+    text-align: center;
+    background-image: url(images/bgr.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-shadow: 0 0 2px white;
+    background-image: linear-gradient(to bottom, #fffa, transparent);
+    padding: 40px 40px 80px;
+    margin: 0 0 -30px;
+    font-size: 30px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    gap: 20px;
+    width: clamp(300px, 60%, 500px);
+}
+
+main>* {
+    transition: 500ms;
+}
+
+main>:hover {
+    scale: 1.05;
+}
+
+main>button, main>a {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    background-color: #fff9;
+    border-radius: 20px;
+    padding: 20px;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+svg {
+    width: 24px;
+    height: 24px;
+}
+
+.instagram {
+    width: 32px;
+    height: 32px;
+    margin: -4px 0;
+}
+
+ul {
+    text-align: left;
+}
+
+details {
+    color: white;
+    background-color: #28a745;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+:last-child>details {
+    background-color: #17a2b8;
+}
+
+summary {
+    font-size: 18px;
+
+}
