@@ -30,9 +30,8 @@ main>* {
     transition: 500ms;
 }
 
-main>:hover {
-    scale: 1.05;
-}
+
+
 
 main>button, main>a {
     font-family: Roboto, Arial, Helvetica, sans-serif;
@@ -83,7 +82,12 @@ summary {
 
 @media (orientation: portrait) {
     body {
-        background-image: url(images/bgr.jpg);
+        background-image: url(images/webp/3.webp);
         background-size: cover;
+    }
+}
+@media (orientation: landscape) {
+    main>:hover {
+        scale: 1.05;
     }
 }
