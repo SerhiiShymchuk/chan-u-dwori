@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-image: url(images/bgr.jpg);
+    background-image: url(images/bgr3.jpg);
     background-size: cover;
     background-position: center;
     margin: 0;
@@ -84,10 +84,5 @@ summary {
 @media (orientation: portrait) {
     body {
         background-position-x: left;
-    }
-}
-@media (orientation: landscape) {
-    body {
-        background-position-y: -70vh;
     }
 }
