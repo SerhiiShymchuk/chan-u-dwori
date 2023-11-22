@@ -6,6 +6,7 @@ body {
     margin: 0;
     background-attachment: fixed;
     font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 h1 {
@@ -35,7 +36,7 @@ main>:hover {
 
 main>button, main>a {
     font-family: Roboto, Arial, Helvetica, sans-serif;
-    background-color: #fff9;
+    background-color: #fff8;
     border-radius: 20px;
     padding: 20px;
     outline: none;
@@ -66,13 +67,13 @@ ul {
 
 details {
     color: white;
-    background-color: #28a745;
+    background-color: #28a74599;
     padding: 20px;
     border-radius: 5px;
 }
 
 :last-child>details {
-    background-color: #17a2b8;
+    background-color: #17a2b899;
 }
 
 summary {
